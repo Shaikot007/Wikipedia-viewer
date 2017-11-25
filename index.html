@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Wikipedia viewer">
+    <meta name="keywords" content="Wikipedia viewer">
+    <meta name="author" content="Fozlul Haq (Shaikot)">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Wikipedia viewer</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- Optional Bootstrap theme -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Carter+One|Pacifico|Timmana" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Nova+Flat" rel="stylesheet"> 
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="col-xs-12 headline">
+                <h1>Wikipedia search</h1>     
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12 click-box">
+                Click here for a <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank"> random article </a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12 search-box">
+              <input type="text" id="search-text-box" placeholder="Search for Wiki"/>
+              <button type='submit' id="search-btn">Search</button>
+            </div>    
+        </div>
+
+        <div class="result"></div>
+
+        <div class="row">
+            <div class="col-xs-12 footer">
+              Designed by <a href="https://shaikot007.github.io/Personal-portfolio/" target="_blank"> Shaikot </a>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+    </script>
+
+    <script src="./script.js">
+    </script>
+</body>
+
+</html>

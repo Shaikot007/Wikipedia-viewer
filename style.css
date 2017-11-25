@@ -1,0 +1,81 @@
+body {
+    margin: auto; 
+    background-color: orange;
+}
+
+.headline {
+    margin: 15% auto auto auto;
+    text-align: center;
+    font-family: 'Timmana', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Carter One', cursive;
+}
+
+@keyframes headline-slide {
+    0% {top: 60px;}
+    100% {top: 0px;}
+}
+
+.click-box {
+    margin: 5% auto auto auto;
+    text-align: center; 
+    font-family: 'Nova Flat', cursive;
+}
+
+@keyframes click-box-slide {
+    0% {top: 70px;}
+    100% {top: 0px;}
+}
+
+.search-box {
+    margin: 5% auto auto auto;
+    text-align: center;
+    font-family: 'Nova Flat', cursive;
+}
+
+#search-text-box {
+    border-radius: 5px;
+}
+
+#search-btn {
+    border-radius: 5px;
+}
+
+@keyframes search-box-slide {
+    0% {top: 80px;}
+    100% {top: 0px;}
+}
+
+.search-item {
+    outline: 0;
+    text-decoration: none;
+    text-align: justify;
+    width: 60%;
+    margin: auto;
+    margin-top: 15px;
+    padding: 10px 20px 10px 20px;
+    background-color: #e5e5e5;
+    border-radius: 5px;
+    font-family: 'Nova Flat', cursive;
+}
+
+.search-item:hover {
+    background-color: lightgreen;
+}
+
+.search-item-underline:hover {
+    text-decoration: none;
+    color: green;
+}
+
+@keyframes result-fade {
+    0% {opacity: 0;}
+    100% {opacity: 3;}
+}
+
+.footer {
+    margin: 5% auto 5% auto ;
+    text-align: center;
+    height: auto;
+    font-family: 'Nova Flat', cursive;
+}
