@@ -79,3 +79,10 @@ body {
     height: auto;
     font-family: 'Nova Flat', cursive;
 }
+
+/* Media queries for phones */
+@media only screen and (min-width: 240px) and (max-width: 480px) { 
+    .search-item {
+        width: 100%;
+    }
+}
